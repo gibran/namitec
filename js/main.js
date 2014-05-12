@@ -42,7 +42,7 @@ $(document).ready(function () {
         //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
         $('#cbp-bislideshow li').parallax("center", -0.6, true);
         $('#intersection').parallax("center", 0.4, true);
-        $('#client').parallax("center",0.3, true);
+        $('#client').parallax("center",0.2, true);
         $('#contact_intersection').parallax("center", 0.3, true);
             
     }

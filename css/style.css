@@ -425,7 +425,7 @@ nav>ul {float:right;}
 
 
 #intersection {
-	background: url('http://www.placehold.it/1900x1000'); /* Parallax Background */
+	background-image: url('../img/background1.jpg'); /* Parallax Background */
 	background-size: cover;
     background-attachment: fixed;
 	padding:70px 0 40px 0;
@@ -735,7 +735,7 @@ nav>ul {float:right;}
 
 
 #client {
-	background: url('http://www.placehold.it/1900x1000'); /* Parallax Background */
+	background-image: url('../img/background2.jpg'); /* Parallax Background */
 	background-size: cover;
     background-attachment: fixed;
 	padding:60px 0;
