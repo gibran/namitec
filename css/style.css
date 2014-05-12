@@ -1,7 +1,7 @@
 /*
 
 
-TEMPLATE  V1.0 BY SUPVIEW.BE
+WINTERED TEMPLATE  V1.0 BY SUPVIEW.BE
 
 00. FONT FACE & GENERALS SETTINGS
 01. NAVIGATION
@@ -83,21 +83,21 @@ h2 {
 	line-height: 1.3em;
   	font-family: 'latolight', sans-serif;
   	margin-top: 0.33em;}
-
-h3 {
+  
+h3 {    
 	font-size:24px;
 	line-height: 1.3em;
   	font-family: 'latolight', sans-serif;}
 
 
 /* Lead Text */
-
+	
 .lead {
-	font-size:28px;
-	font-family: 'latolight';
-	color:#777;
-	padding:30px 0;
-}
+	font-size:28px; 
+	font-family: 'latolight'; 
+	color:#777; 
+	padding:30px 0;}
+
 
 /* Link */
 
@@ -106,8 +106,8 @@ a {
   	text-decoration: none;}
 
 a:hover {
-	color: #4babc1;}
-
+	color: #4babc1;}  
+	
 /* Paragrah */
 
 p {
@@ -170,7 +170,7 @@ p a:hover {border-bottom:1px dashed #4babc1;}
 nav #logo {
 	float:left;
 	z-index: 999;}
-
+	
 nav>ul {float:right;}
 
 /* The main navigation bar */
@@ -196,7 +196,7 @@ nav>ul {float:right;}
 	color:#777;}
 
 
-
+ 
 .cbp-af-header {
 	position: fixed;
 	background: rgba(255, 255, 255, 0);
@@ -213,7 +213,7 @@ nav>ul {float:right;}
 /* FOR REDUCING THE HEIGHT OF THE NAVIGATION */
 
 .cbp-af-header #logo {
-	padding:40px 30px 0px 0px;
+	padding:40px 30px 0px 0px; 
 	width:80px;
 	display:none;}
 
@@ -221,8 +221,8 @@ nav>ul {float:right;}
 	line-height: 100px;
 	color:#FFF;}
 
-.cbp-af-header.cbp-af-header-shrink #logo {
-	padding:20px 30px 0px 0px;
+.cbp-af-header.cbp-af-header-shrink #logo { 
+	padding:20px 30px 0px 0px; 
 	width:80px;
 	display: block;}
 
@@ -244,7 +244,7 @@ nav>ul {float:right;}
 	line-height: 60px;
 	color:#999;}
 
-
+	
 /* The hover state of the links */
 .cbp-af-header.cbp-af-header-shrink #nav li .selected, .cbp-af-header.cbp-af-header-shrink #nav li a:hover {
 	color: #4babc1;}
@@ -264,13 +264,13 @@ nav>ul {float:right;}
 	top:0;
 	-webkit-box-shadow:  1px 1px 6px 1px rgba(0, 0, 0, 0.1);
     box-shadow:  1px 1px 6px 1px rgba(0, 0, 0, 0.1);}
-
+	
 
 .mobile-menu .row {
 	background: #222;
 	padding-top:10px;
 	padding-bottom: 10px;}
-
+	
 
 .mobile-menu-inner .nav-mobile li {
 	color: #FFF;
@@ -285,15 +285,15 @@ nav>ul {float:right;}
 	-ms-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;	}
-
+	
 
 .mobile-menu-inner .nav-mobile li:hover {
 	background-color: #FFF;	}
-
+	
 
 .mobile-menu-inner .nav-mobile li:hover a {
 	color: #333;	}
-
+	
 
 .mobile-menu-inner .nav-mobile li a {
 	display: block;
@@ -307,7 +307,7 @@ nav>ul {float:right;}
 	-ms-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;	}
-
+	
 
 #collapse {
 	display:none;}
@@ -333,11 +333,11 @@ nav>ul {float:right;}
 	width:100%;
 	height:100%;
 	color:#FFF;
-	background:#333 ;
+	background:#333 ; 
     z-index: 9;
     position: relative;}
-
-
+    
+ 
 
 #leadFader {
 	margin: 0;
@@ -416,7 +416,7 @@ nav>ul {float:right;}
 
 
 #intro {
-
+	
 	padding:100px 0;
 }
 
@@ -429,7 +429,7 @@ nav>ul {float:right;}
 	background-size: cover;
     background-attachment: fixed;
 	padding:70px 0 40px 0;
-
+	
 }
 
 .testimonial-quote {padding:0px 30px; }
@@ -445,15 +445,15 @@ nav>ul {float:right;}
     margin: 0;
     position: relative;
     z-index: 600;
-    left:20px;
+    left:20px;   
 }
 
 .testimonial-quote blockquote * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 .testimonial-quote blockquote p {
-    color: #FFF;
+    color: #FFF; 
     font-size:25px;
     line-height: 1.4 !important;
 }
@@ -465,7 +465,7 @@ nav>ul {float:right;}
     opacity: .3;
     position: absolute;
     top: -.4em;
-    left: -.3em;
+    left: -.3em;    
     text-shadow: none;
     z-index: -300;
 }
@@ -473,9 +473,9 @@ nav>ul {float:right;}
 .testimonial-quote cite {
     color: rgba(255,255,255,0.60);
     display: block;
-    font-size: 0.8em;
+    font-size: 0.8em; 
 }
-
+  
 .testimonial-quote cite span {
     color: #EEE;
     font-size: 1em;
@@ -492,7 +492,7 @@ nav>ul {float:right;}
 
 
 #crew {
-	padding:100px 0;
+	padding:100px 0; 
 	background: #FFF;
 }
 
@@ -529,7 +529,7 @@ nav>ul {float:right;}
 
 
 #works {
-
+	
 	padding:0px 0;
 	background: #333;
 }
@@ -543,20 +543,20 @@ nav>ul {float:right;}
 
 .item {
   	height:auto;
-  	display: inline-block;
+  	display: inline-block; 
   	vertical-align: top;
-
-  	position: relative;
+  
+  	position: relative; 
   	overflow: hidden;
   	line-height: 0;
-
+  
   	-webkit-transition: -webkit-transform 0.2s ease-out;
 	-moz-transition: -moz-transform 0.2s ease-out;
 	-o-transition: -o-transform 0.2s ease-out;
 	transition: transform 0.2s ease-out;
 }
 
-
+  
 .item img {
   	position: relative;
   	z-index: 4;
@@ -566,9 +566,9 @@ nav>ul {float:right;}
   	-ms-transform-origin: 50% 50%;
   	-o-transform-origin: 50% 50%;
   	transform-origin: 50% 50%;
-
+  	
   	/* This is what was making it slow! booooooo */
-
+  
   	-webkit-transition: opacity 3s ease-out, -webkit-transform 1s ease-in;
   	-moz-transition: opacity 3s ease-out, -moz-transform 1s ease-in;
   	-o-transition: opacity 3s ease-out, -o-transform 1s ease-in;
@@ -607,14 +607,14 @@ nav>ul {float:right;}
   	font-size: 18px;
   	margin-top:25%;
   	font-family: 'latobold', sans-serif;}
-
+  	
 .hovercontent h4 {
   	color: #DDD;
   	font-family: 'latoregular', sans-serif;
   	font-size:0.8rem;
   	font-weight: 200;}
-
-
+  	
+  	
 .item .link:hover .hovercontent {
   	opacity: 1;
   	filter: alpha(opacity=100);
@@ -630,7 +630,7 @@ nav>ul {float:right;}
   -moz-transform: translate(@x, @y);
   -ms-transform: translate(@x, @y);
   -o-transform: translate(@x, @y);
-  transform: translate(@x, @y);
+  transform: translate(@x, @y); 
 }
 
 .shift_grid(@down, @right: 0) {
@@ -698,13 +698,13 @@ nav>ul {float:right;}
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#333333',GradientType=1 ); /* IE6-9 */
 
 }
-
+	
 .slide_portfolio h3 {
 	color:#FFF;
 	padding-bottom: 20px;
-
-}
-
+	
+}	
+	
 .slide_portfolio p{
 	color:#FFF;
 }
@@ -739,7 +739,7 @@ nav>ul {float:right;}
 	background-size: cover;
     background-attachment: fixed;
 	padding:60px 0;
-
+	
 }
 
 
@@ -759,20 +759,9 @@ nav>ul {float:right;}
 
 
 #process {
-  background: #CCC;
-  background-size: cover;
-  padding:60px 0;
-}
-
-#process .lead{
-  font-size:28px;
-  font-family: 'latolight';
-  color:#FFF;
-  padding:30px 0;
-}
-
-#process p{
-  color: #FFF;
+	background: #FFF;
+	padding:100px 0;
+	
 }
 
 /* 09. CONTACT INTERSECTION ============================================ */
@@ -789,7 +778,7 @@ nav>ul {float:right;}
 #contact_intersection h2 {
 	text-align: center;
 	color:#FFF;
-
+	
 }
 
 /* General button style (reset) */
@@ -831,7 +820,7 @@ a .btn {color:#FFF;}
 
 #contact {
 	padding:100px 0;
-
+	
 }
 
 
@@ -876,18 +865,18 @@ a .btn {color:#FFF;}
 
 /* iPad (Portrait) ----------- */
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
 
-.mobile-menu {display:block;}
+.mobile-menu {display:block;}	
 
 .cbp-af-header {display: none;}
 
-#impressionFader {margin: 0; position: absolute; margin-top:0px; width:740px; text-align: center;  z-index: 9999;}
+#impressionFader {margin: 0; position: absolute; margin-top:0px; width:740px; text-align: center;  z-index: 9999;}		
 
-
+	
 }
 
 
@@ -895,9 +884,9 @@ and (orientation : portrait) {
 /* Smartphones (landscape) ----------- */
 
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
 and (orientation : landscape) {
 
 #impressionFader {position: relative; text-align: center; margin-top:20%;}
@@ -929,13 +918,13 @@ and (orientation : landscape) {
 /* Smartphones (Portraits) ----------- */
 
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait) {
-
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	
 #leadFader {position: relative; text-align: center; margin-top:70%;}
-
+	
 }
 
 
@@ -943,10 +932,10 @@ and (orientation : portrait) {
 @media screen and (max-width: 768px) {
 
 	/* Display the mobile menu */
-
-	.mobile-menu {display:block;}
-
-	#leadFader {
+	
+	.mobile-menu {display:block;}	
+	
+	#leadFader {    
 	position: absolute;
     top: 0;
     right: 0;
@@ -955,24 +944,25 @@ and (orientation : portrait) {
     margin: auto;
     width: 100%;
     height: 50px;}
-
+	
 	#leadFader .Head {font-size:24px;}
-
+	
 	#leadFader .Sub {font-size: 15px;}
-
+	
 	#intersection, #client, #contact_intersection {background-size:auto; background-origin:  content-box ;}
-
+	
 	/* Not Showing the Navigation */
 
 	.cbp-af-header {display: none;}
-
+	
 	.separator { border-top: 1px solid #EEEEEE; margin:40px auto 10px auto; width:10%;}
-
+	
 	.slide_portfolio {padding:20px;}
-
+	
 	#contact , #contact p{text-align: center;}
-
+	
 	#footer p {text-align: center;}
-
-
+	
+	       
 }
+
